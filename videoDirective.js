@@ -83,7 +83,7 @@ return {
 					var f = new FormData();
 					f.append('videofile', blob);
 					var xhr = new XMLHttpRequest();
-					xhr.open('POST','index.php?r=site/SaveRecordedFile');
+					xhr.open('POST','upload.php');
 					xhr.send(f);
 				};
 			}
